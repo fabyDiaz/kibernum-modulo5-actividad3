@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-07-30T02:29:07.795Z",
+        "before": [
+          {
+            "result": { "duration": 2670053300, "status": "passed" },
+            "match": {
+              "location": "cl.kibernumacademy.steps.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Usuario accede con credenciales válidas",
+        "description": "",
+        "id": "inicio-de-sesión;usuario-accede-con-credenciales-válidas",
+        "after": [
+          {
+            "result": { "duration": 352060500, "status": "passed" },
+            "match": {
+              "location": "cl.kibernumacademy.steps.LoginSteps.takeScreenshot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": { "status": "passed" },
+            "match": {
+              "location": "cl.kibernumacademy.steps.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": { "duration": 258606800, "status": "passed" },
+            "line": 3,
+            "name": "que el usuario está en la página de login",
+            "match": {
+              "location": "cl.kibernumacademy.steps.LoginSteps.que_el_usuario_esta_en_la_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": { "duration": 563019100, "status": "passed" },
+            "line": 4,
+            "name": "ingresa usuario \"admin\" y clave \"admin123\"",
+            "match": {
+              "arguments": [
+                { "val": "\"admin\"", "offset": 16 },
+                { "val": "\"admin123\"", "offset": 32 }
+              ],
+              "location": "cl.kibernumacademy.steps.LoginSteps.ingresa_usuario_y_clave(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": { "duration": 31995400, "status": "passed" },
+            "line": 5,
+            "name": "debería ver el mensaje \"Bienvenido, admin\"",
+            "match": {
+              "arguments": [{ "val": "\"Bienvenido, admin\"", "offset": 23 }],
+              "location": "cl.kibernumacademy.steps.LoginSteps.deberia_ver_el_mensaje(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Inicio de sesión",
+    "description": "",
+    "id": "inicio-de-sesión",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]
