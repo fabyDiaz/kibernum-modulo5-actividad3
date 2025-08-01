@@ -1,6 +1,6 @@
 # Inicio de Sesión Automatizado con Cucumber + Selenium
 
-## Módulo 5 - Sesión 1 - Actividad 1
+## Módulo 5 - Sesión 3 - Actividad 3
 
 ## Equipo 4: 
 - Eduardo Arellano

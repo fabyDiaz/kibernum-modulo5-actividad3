@@ -45,7 +45,7 @@ public class LoginSteps {
     loginPage = new LoginPage(driver);
   }
 
-  @When("ingresa usuario {string} y clave {string}")
+  @When("escribe su nombre {string} y su clave {string}")
   public void ingresa_usuario_y_clave(String usuario, String clave) {
     loginPage.login(usuario, clave);
   }
